@@ -1,18 +1,54 @@
-## Getting Started
+# Calculadora de Consumo de Internet 📊
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+Este projeto é uma aplicação Java que calcula o consumo de internet com base em valores semanais fornecidos pelo usuário. A aplicação processa múltiplos valores de consumo e fornece análises como consumo total mensal e identificação do maior consumo.
 
-## Folder Structure
+## Funcionalidades
+- Leitura de valores de consumo semanal
+- Cálculo do consumo total mensal
+- Identificação do dia com maior consumo
+- Processamento de valores decimais
+- Tratamento de entrada de dados
 
-The workspace contains two folders by default, where:
+## Como Usar
+1. Execute o programa
+2. Digite os valores de consumo separados por vírgula
+   ```
+   Exemplo: 100.5, 200.3, 150.8, 300.2
+   ```
+3. O programa irá mostrar:
+   - Total mensal de consumo
+   - Dia com maior consumo
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplo de Entrada/Saída
+  - Entrada:
+  - 2000.0, 3000.0, 4000.0, 2300.0
+  - Saída:
+  - Total mensal: 11264 MB
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Requisitos Técnicos
+- Java 8 ou superior
+- JDK instalado
+- IDE Java (opcional)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Contribuir
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature
+3. Faça commit das suas alterações
+4. Faça push para a branch
+5. Abra um Pull Request
 
-## Dependency Management
+## Tecnologias Utilizadas
+- Java
+- Scanner (para entrada de dados)
+- Arrays
+- Streams
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+Yuri Augusto Bernardes de Sousa
+
+## Licença
+Este projeto está sob a licença MIT.
+
+---
+⭐ Se este projeto foi útil para você, considere dar uma estrela!
